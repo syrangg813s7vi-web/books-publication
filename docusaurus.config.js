@@ -28,6 +28,7 @@ module.exports = {
     defaultLocale: 'zh-CN',
     locales: ['zh-CN'],
   },
+  trailingSlash: false,
 
   presets: [
     [
