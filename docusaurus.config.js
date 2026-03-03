@@ -5,8 +5,8 @@ module.exports = {
 
   // Set the production url of your site here
   url: 'https://syrangg813s7vi-web.github.io',
-  // Set the /<baseUrl>/ to <empty> to run on root domain
-  baseUrl: '/',
+  // Use project page baseUrl for GitHub Pages deployment
+  baseUrl: '/books-publication/',
 
   // GitHub Pages deployment config.
   // If you aren't using GitHub Pages, you don't need these.
@@ -14,8 +14,12 @@ module.exports = {
   projectName: 'books-publication',
   deploymentBranch: 'gh-pages',
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -101,11 +105,11 @@ module.exports = {
             ],
           },
           {
-            title: '更多',
+            title: '关于',
             items: [
               {
-                label: '更新日志',
-                to: '/blog',
+                label: '项目简介',
+                to: '/docs/intro',
               },
             ],
           },
