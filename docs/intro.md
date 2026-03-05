@@ -9,7 +9,7 @@ sidebar_position: 1
 ## 目前上线的书籍
 
 - [Thomas Frank Book](./thomas-frank/intro.md)
-- [Feel-Good Productivity](./feel-good/intro.md)
+- [Feel-Good Productivity（已完整发布）](./feel-good/intro.md)
 - [Matt D'Avella Subtitles Book](./matt-davella/intro.md)
 
 ## 阅读方式
