@@ -74,6 +74,12 @@ module.exports = {
             label: 'Feel-Good Productivity',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'mattDavellaSidebar',
+            position: 'left',
+            label: "Matt D'Avella Subtitles Book",
+          },
+          {
             href: 'https://github.com/syrangg813s7vi-web/books-publication',
             label: 'GitHub',
             position: 'right',
@@ -93,6 +99,10 @@ module.exports = {
               {
                 label: 'Feel-Good Productivity',
                 to: '/docs/feel-good/intro',
+              },
+              {
+                label: "Matt D'Avella Subtitles Book",
+                to: '/docs/matt-davella/intro',
               },
             ],
           },

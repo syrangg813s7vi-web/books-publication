@@ -10,6 +10,7 @@ sidebar_position: 1
 
 - [Thomas Frank Book](./thomas-frank/intro.md)
 - [Feel-Good Productivity](./feel-good/intro.md)
+- [Matt D'Avella Subtitles Book](./matt-davella/intro.md)
 
 ## 阅读方式
 
